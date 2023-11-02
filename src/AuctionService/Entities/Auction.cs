@@ -7,11 +7,11 @@ public class Auction
 
  public string Seller { get; set; }
 
- public string Winner { get; set; }
+ public string Winner { get; set; } = "";
 
- public int? SoldAmount { get; set; }
+ public int? SoldAmount { get; set; } = 0;
 
- public int CurrentHighBid { get; set; }
+ public int? CurrentHighBid { get; set; } = 0;
 
  public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
